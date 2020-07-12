@@ -11,4 +11,7 @@
     padding: 10px 0;
   }
   
-  
+.orbit-container {
+    width: 100% !important;
+    height: 350px !important;
+}  

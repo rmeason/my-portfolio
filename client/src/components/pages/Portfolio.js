@@ -1,27 +1,22 @@
 import React from 'react';
+import "./Portfolio.css";
+import ccs from "./img/ccs.png"
 
 const Portfolio = () => (
       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <div class="orbit-wrapper">
-          <div class="orbit-controls">
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          </div>
           <ul class="orbit-container">
             <li class="is-active orbit-slide">
             <div class="work-feature-block row">
                 <div class="columns medium-7">
-                  <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                  <img class="work-feature-block-image" src={ccs} />
                 </div>
                 <div class="columns medium-5">
-                  <h2 class="work-feature-block-header">Project Description</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales diam ac hendrerit aliquet. Phasellus pretium libero vel molestie maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est quam. Aenean blandit a urna laoreet tincidunt.</p>
-                  <h2>Project Details</h2>
+                  <h2 class="work-feature-block-header">Comic Character Source</h2>
+                  <p>For this collaborative project I was in charge of the framework and stylistic capability of this site.</p>
+                  <h2>Check it out!</h2>
                   <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    <li><a href="https://acschmalenberger.github.io/Project1/" target="_blank">Comic Charicter Source</a></li>
                   </ul>
                 </div>
               </div>
@@ -29,17 +24,17 @@ const Portfolio = () => (
             <li class="orbit-slide">
               <div class="work-feature-block row">
                 <div class="columns medium-7">
-                  <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                  <img class="work-feature-block-image" src="#"/>
                 </div>
                 <div class="columns medium-5">
-                  <h2 class="work-feature-block-header">Project Description</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales diam ac hendrerit aliquet. Phasellus pretium libero vel molestie maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est quam. Aenean blandit a urna laoreet tincidunt.</p>
-                  <h2>Project Details</h2>
+                  <h2 class="work-feature-block-header">   </h2>
+                  <p>    </p>
+                  <h2>   </h2>
                   <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    {/* <li>   </li>
+                    <li>   </li>
+                    <li>   </li>
+                    <li>   </li> */}
                   </ul>
                 </div>
               </div>
@@ -47,17 +42,17 @@ const Portfolio = () => (
             <li class="orbit-slide">
               <div class="work-feature-block row">
                 <div class="columns medium-7">
-                  <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                  <img class="work-feature-block-image" src="#"/>
                 </div>
                 <div class="columns medium-5">
-                  <h2 class="work-feature-block-header">Project Description</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales diam ac hendrerit aliquet. Phasellus pretium libero vel molestie maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est quam. Aenean blandit a urna laoreet tincidunt.</p>
-                  <h2>Project Details</h2>
+                  <h2 class="work-feature-block-header">    </h2>
+                  <p>  </p>
+                  <h2>   </h2>
                   <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    {/* <li>   </li>
+                    <li>   </li>
+                    <li>   </li>
+                    <li>   </li> */}
                   </ul>
                 </div>
               </div>
@@ -65,17 +60,17 @@ const Portfolio = () => (
             <li class="orbit-slide">
               <div class="work-feature-block row">
                 <div class="columns medium-7">
-                  <img class="work-feature-block-image" src="https://placehold.it/600x400"/>
+                  <img class="work-feature-block-image" src="#"/>
                 </div>
                 <div class="columns medium-5">
-                  <h2 class="work-feature-block-header">Project Description</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sodales diam ac hendrerit aliquet. Phasellus pretium libero vel molestie maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis est quam. Aenean blandit a urna laoreet tincidunt.</p>
-                  <h2>Project Details</h2>
+                  <h2 class="work-feature-block-header">    </h2>
+                  <p>   </p>
+                  <h2>   </h2>
                   <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
+                    {/* <li>   </li>
+                    <li>   </li>
+                    <li>   </li>
+                    <li>   </li> */}
                   </ul>
                 </div>
               </div>
