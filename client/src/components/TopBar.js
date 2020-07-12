@@ -1,10 +1,14 @@
 import React from "react";
+import "./TopBar.css"
 
-function NavTabs(props) {
+function TopBar(props) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
+<div class="top-bar" id="navigation">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">R. Michael Eason</li>
+      <li>
+      <a
           href="#home"
           onClick={() => props.handlePageChange("Home")}
           className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
@@ -12,8 +16,8 @@ function NavTabs(props) {
           Home
       </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li>
+      <a
           href="#about"
           onClick={() => props.handlePageChange("About")}
           className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
@@ -21,8 +25,8 @@ function NavTabs(props) {
           About
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li>
+      <a
           href="#portfolio"
           onClick={() => props.handlePageChange("Portfolio")}
           className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
@@ -30,8 +34,8 @@ function NavTabs(props) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li>
+      <a
           href="#contact"
           onClick={() => props.handlePageChange("Contact")}
           className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
@@ -40,7 +44,9 @@ function NavTabs(props) {
         </a>
       </li>
     </ul>
+  </div>
+</div>
   );
 }
 
-export default NavTabs;
+export default TopBar;
