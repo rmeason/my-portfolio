@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopBar from "./TopBar";
 import Header from "./Header";
+import Footer from "./Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -31,14 +32,17 @@ handlePageChange = page => {
 
   render() {
     return (
-      <div>
-        <Header />
-        <TopBar
-          currentPage={this.state.currentPage}
-          handlePageChange={this.handlePageChange}
-        />
-        {this.renderPage()}
-      </div>
+      <wrapper>
+        <div>
+          <Header />
+          <TopBar
+            currentPage={this.state.currentPage}
+            handlePageChange={this.handlePageChange}
+          />
+          {this.renderPage()}
+        </div>        
+        <Footer />
+      </wrapper>
     );
   }
 }
