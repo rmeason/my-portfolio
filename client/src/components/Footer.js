@@ -9,18 +9,21 @@ function Footer (props) {
   <div class="row medium-unstack">
     <div class="medium-4 columns">
       <h4 class="marketing-site-footer-name">R. Michael Eason</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
+      </p>
       <ul class="menu marketing-site-footer-menu-social simple">
-        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
-         <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="false"></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="false"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="false"></i></a></li>
       </ul>
     </div>
     <div class="medium-4 columns">
        <h4 class="marketing-site-footer-title">Contact Info</h4>
       <div class="marketing-site-footer-block">
         <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>100 W Rincon<br />San Francisco, CA 94015</p>
+        <p>Spring Branch Area<br />Houston, TX</p>
       </div>
       <div class="marketing-site-footer-block">
         <i class="fa fa-phone" aria-hidden="true"></i>

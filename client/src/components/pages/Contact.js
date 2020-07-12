@@ -1,20 +1,28 @@
 import React from 'react';
+import "./Contact.css"
 
 const Contact = () => (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-        vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-        tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-        condimentum magna, quis tempor nulla.
-      </p>
+<section class="contact-us-section">
+  <div class="row medium-unstack">
+    <div class="columns contact-us-section-right">
+      <h1 class="contact-us-header">Message Me Here: </h1>
+      <form class="contact-us-form">
+        <input type="text" placeholder="Full name" />
+        <input type="email" placeholder="Email" />
+        <textarea name="message" id="" rows="12" placeholder="Type your message here"></textarea>
+        <div class="contact-us-form-actions">
+          <input type="submit" class="button" value="Send it" />
+          <div>
+            <label for="FileUpload" class="button contact-us-file-button">Attach Files</label>
+            <input type="file" id="FileUpload" class="show-for-sr" />
+          </div>
+        </div>
+      </form>
     </div>
+  </div>
+</section>
+
+
   );
 
 export default Contact;
