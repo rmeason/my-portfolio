@@ -1,5 +1,6 @@
 import React from "react";
-import "./TopBar.css"
+import {Link} from "react-router-dom";
+import "./TopBar.css";
 
 function TopBar(props) {
   return (
@@ -8,40 +9,16 @@ function TopBar(props) {
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">R. Michael Eason</li>
       <li>
-      <a
-          href="#home"
-          onClick={() => props.handlePageChange("Home")}
-          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          Home
-      </a>
+        <Link to="/home">Home</Link>
       </li>
       <li>
-      <a
-          href="#about"
-          onClick={() => props.handlePageChange("About")}
-          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
-        >
-          About
-        </a>
+        <Link to="/about">About</Link>
       </li>
       <li>
-      <a
-          href="#portfolio"
-          onClick={() => props.handlePageChange("Portfolio")}
-          className={props.currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </a>
+      <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-      <a
-          href="#contact"
-          onClick={() => props.handlePageChange("Contact")}
-          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
-        >
-          Contact
-        </a>
+      <Link to="/contact">Contact</Link>
       </li>
     </ul>
   </div>
