@@ -1,17 +1,24 @@
 
-.work-feature-block {
-  padding: 10px 0;
-  border-top: 1px solid #cacaca;
-  border-bottom: 1px solid #cacaca;
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.work-feature-block-image {
-  display: block;
-  margin: auto;
-  padding: 10px 0;
+.featured-image-block {
+  margin-bottom: 20px;
 }
 
-.orbit-container {
-  width: 100% !important;
-  height: 350px !important;
-}  
+.featured-image-block .featured-image-block-title {
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+  color: #404040;
+}
+
+.featured-image-block a:hover p {
+  color: #1779ba;
+}
+
+
