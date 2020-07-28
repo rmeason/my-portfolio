@@ -9,16 +9,13 @@ function TopBar(props) {
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">R. Michael Eason</li>
       <li>
-        <Link to="/home">Home</Link>
-      </li>
-      <li>
         <Link to="/about">About</Link>
       </li>
       <li>
-      <Link to="/portfolio">Portfolio</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-      <Link to="/contact">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </li>
     </ul>
   </div>

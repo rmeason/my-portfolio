@@ -1,9 +1,10 @@
 import React from 'react';
+import "./About.css";
 
 const About = () => (
 
 <div class="about-the-author">
-  <h3 class="author-title">A little about myself</h3>
+  <h3 class="author-title">A little about myself:</h3>
   <div class="row">
     <div class="small-12 medium-4 columns">
       <div class="author-image">

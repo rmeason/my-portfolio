@@ -2,6 +2,8 @@ import React from 'react';
 import "./Portfolio.css";
 import ccs from "./img/ccs.png";
 import ts from "./img/ts.png";
+import note from "./img/note.png";
+import crave from "./img/crave.png"
 
 const Portfolio = () => (
 
@@ -27,14 +29,14 @@ const Portfolio = () => (
     
     <div class="featured-image-block column">
      <a href="https://projectnumtwo.herokuapp.com/" target="_blank">
-        <img src= />
+        <img src={crave} />
         <p class="text-center featured-image-block-title">Cravings!</p>
       </a>
     </div>
     
     <div class="featured-image-block column">
      <a href="https://vast-journey-67771.herokuapp.com/" target="_blank">
-        <img src="https://unsplash.it/600/440?image=792" />
+        <img src={note} />
         <p class="text-center featured-image-block-title">Note App</p>
       </a>
     </div>

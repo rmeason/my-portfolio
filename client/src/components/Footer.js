@@ -6,37 +6,6 @@ function Footer (props) {
     return (
 
 <footer class="marketing-site-footer">
-  <div class="row medium-unstack">
-    <div class="medium-4 columns">
-      <h4 class="marketing-site-footer-name">R. Michael Eason</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolorem accusantium architecto id quidem, itaque nesciunt quam ducimus atque.
-      </p>
-      <ul class="menu marketing-site-footer-menu-social simple">
-        <li><a href="#"><i class="fa fa-youtube-square" aria-hidden="false"></i></a></li>
-         <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="false"></i></a></li>
-         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="false"></i></a></li>
-      </ul>
-    </div>
-    <div class="medium-4 columns">
-       <h4 class="marketing-site-footer-title">Contact Info</h4>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>Spring Branch Area<br />Houston, TX</p>
-      </div>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <p>1 (800) 555-5555</p>
-      </div>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-        <p>rmeason@placeholder.com</p>
-      </div>
-    </div>
-    <div class="medium-4 columns">
-    </div>
-  </div>
   <div class="marketing-site-footer-bottom">
     <div class="row large-unstack align-middle">
       <div class="column">
@@ -44,14 +13,13 @@ function Footer (props) {
       </div>
       <div class="column">
         <ul class="menu marketing-site-footer-bottom-links">
-          <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </div>
-  </div>
+    </div>
 </footer>
 
     );
