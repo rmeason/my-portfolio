@@ -32,7 +32,7 @@ const About = () => (
       </div>
     </div>
     <div class="small-12 medium-8 columns">
-      <h4 class="separator-left">Richard "Michael" Eason</h4>
+      <h4 class="separator-left">Michael Eason</h4>
       <p>Full-stack web developer with extensive knowledge in research psychology and human behavior. Earned a certificate in full-stack development from Rice University, with new competencies in HTML, JavaScript, CSS, React.js, and CSS Framework implementation. Known to be self-directed with a passion for developing applications with a focus on superior user experience. Experienced in working on projects in teams, as well as developing a MERN application as a solo-developer. My solo app is a site that allows those who are looking for a therapist to take a quiz and find the therapist who is most compatible with their answers. I am looking forward to utilizing my skills and experience to create helpful applications.</p>
     </div>
   </div>

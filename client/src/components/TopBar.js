@@ -7,7 +7,7 @@ function TopBar(props) {
 <div class="top-bar" id="navigation">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">R. Michael Eason</li>
+      <li class="menu-text">Michael Eason</li>
       <li>
         <Link to="/about">About</Link>
       </li>
