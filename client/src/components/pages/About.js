@@ -1,4 +1,5 @@
 import React from 'react';
+import bioPic from "./img/new-bio-pic.jpg";
 import "./About.css";
 
 const About = () => (
@@ -8,7 +9,7 @@ const About = () => (
   <div class="row">
     <div class="small-12 medium-4 columns">
       <div class="author-image">
-        <img src="https://scontent.fhou1-1.fna.fbcdn.net/v/t1.0-9/12801472_10207379593700596_2360580408245040920_n.jpg?_nc_cat=100&_nc_sid=174925&_nc_oc=AQm444wzcLobJd_NM7w8jxgITh4BXsrmATwjWjk8bpstoB8Wpn79qUuWjtWlLQCIF_abSNGAE2C5QS5bah_I4Am-&_nc_ht=scontent.fhou1-1.fna&oh=aad76270313074e74743e05958929a81&oe=5F2EB29C" />
+        <img src={bioPic} />
       </div>
       <p id="invite">Connect with me here:</p>
       <div class="author-social">
