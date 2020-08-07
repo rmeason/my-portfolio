@@ -1,3 +1,9 @@
 .about-the-author {
     margin-bottom: 100px;
 }
+
+#invite {
+    font-size: larger;
+    margin-bottom: auto;
+    font-weight: bold;
+}
