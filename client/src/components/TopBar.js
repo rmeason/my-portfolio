@@ -14,9 +14,9 @@ function TopBar(props) {
       <li>
         <Link to="/portfolio">Portfolio</Link>
       </li>
-      <li>
+      {/* <li>
         <Link to="/contact">Contact</Link>
-      </li>
+      </li> */}
     </ul>
   </div>
 </div>

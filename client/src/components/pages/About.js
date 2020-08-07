@@ -11,22 +11,22 @@ const About = () => (
         <img src="https://scontent.fhou1-1.fna.fbcdn.net/v/t1.0-9/12801472_10207379593700596_2360580408245040920_n.jpg?_nc_cat=100&_nc_sid=174925&_nc_oc=AQm444wzcLobJd_NM7w8jxgITh4BXsrmATwjWjk8bpstoB8Wpn79qUuWjtWlLQCIF_abSNGAE2C5QS5bah_I4Am-&_nc_ht=scontent.fhou1-1.fna&oh=aad76270313074e74743e05958929a81&oe=5F2EB29C" />
       </div>
       <div class="author-social">
-        <a href="#">
-          <span class="fa-stack fa-lg facebook">
+        <a href="https://github.com/rmeason" target="_blank">
+          <span class="fa-stack fa-lg github">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
           </span>
         </a>
-        <a href="#">
-          <span class="fa-stack fa-lg twitter">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/michael-eason-561490115/" target="_blank">
           <span class="fa-stack fa-lg linkedin">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a href="mailto: r.michael.eason@gmail.com" target="_blank">
+          <span class="fa-stack fa-lg email">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
           </span>
         </a>
       </div>
