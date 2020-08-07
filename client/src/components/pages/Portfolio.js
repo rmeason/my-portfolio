@@ -12,7 +12,7 @@ const Portfolio = () => (
     <h2>A list of my projects:</h2>
     <p>click on the image to check out the sites</p>
   </div>
-  <div class="row large-up-4 small-up-2">
+  <div class="animate__animated animate__backInDown animate__slow	2.5s row large-up-4 small-up-2">
     <div class="featured-image-block column">
      <a href="https://acschmalenberger.github.io/Project1/" target="_blank">
         <img src={ccs} />
