@@ -8,7 +8,7 @@ const About = () => (
   <div class="row">
     <div class="small-12 medium-4 columns">
       <div class="author-image">
-        <img alt="bioPic" src={bioPic} />
+        <img alt="Richard Michael Eason" src={bioPic} />
       </div>
       <p id="invite">Connect with me here:</p>
       <div class="author-social">
