@@ -8,10 +8,16 @@ import crave from "./img/crave.png"
 const Portfolio = () => (
 
 <div class="featured-image-block-grid">
-  <div class="featured-image-block-grid-header small-10 medium-8 large-7 columns text-center">
+  <div class="featured-image-block-grid-header small-10 medium-8 large-7 columns">
     <h2>A list of my projects:</h2>
-    <p>click on the image to check out the sites</p>
+    <li>
+      Click on the image to check out the sites.
+    </li>
+    <li>
+      Click on the GitHub links to view the repositories.
+    </li>
   </div>
+
   <div class="animate__animated animate__backInDown animate__slow	2.5s row large-up-4 small-up-2">
     <div class="featured-image-block column">
      <a href="https://acschmalenberger.github.io/Project1/" target="_blank">

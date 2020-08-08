@@ -3,8 +3,9 @@
 }
 
 .featured-image-block-grid-header {
-  margin-left: auto;
+  margin-left: 6.8%;
   margin-right: auto;
+  padding-bottom: 50px;
 }
 
 .featured-image-block {
