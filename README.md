@@ -1,10 +1,13 @@
-# Create React Express App
+# My Portfolio
 
-## About This Boilerplate
+## About This Site
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+This is a site for my personal portfolio. Here you can view my sites and contact info.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+### Built With
+
+  -React.js
+  -Zurb Foundation
 
 ## Starting the app locally
 
@@ -24,6 +27,12 @@ npm start
 
 Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
+## Contact
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+Michael Eason - r.michael.eason@gmail.com
+Project Link: https://rme-portfolio.herokuapp.com/
+
+## Acknowledgements
+
+  - Zurb Foundaton
+  - Animate.css
