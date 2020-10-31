@@ -1,5 +1,7 @@
 # My Portfolio
 
+![portfolioimg](portfolio-img.png)
+
 ## About This Site
 
 This is a site for my personal portfolio. Here you can view my sites and contact info.
