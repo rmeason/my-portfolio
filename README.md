@@ -1,7 +1,5 @@
 # My Portfolio
 
-![portfolio](2020-10-30(2).png)
-
 ## About This Site
 
 This is a site for my personal portfolio. Here you can view my sites and contact info.
