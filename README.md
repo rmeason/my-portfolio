@@ -8,8 +8,8 @@ This is a site for my personal portfolio. Here you can view my sites and contact
 
 ### Built With
 
-  -React.js
-  -Zurb Foundation
+  - React.js
+  - Zurb Foundation
 
 ## Starting the app locally
 
@@ -32,6 +32,7 @@ Your app should now be running on <http://localhost:3000>. The Express server sh
 ## Contact
 
 Michael Eason - r.michael.eason@gmail.com
+
 Project Link: https://rme-portfolio.herokuapp.com/
 
 ## Acknowledgements
