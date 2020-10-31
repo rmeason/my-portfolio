@@ -38,3 +38,4 @@ Project Link: https://rme-portfolio.herokuapp.com/
 
   - Zurb Foundaton
   - Animate.css
+  - Font Awesome
