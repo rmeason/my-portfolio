@@ -4,7 +4,7 @@ import ccs from "./img/ccs.png";
 import ts from "./img/ts.png";
 import note from "./img/note.png";
 import crave from "./img/crave.png";
-import msd from "./img/maple-street-designs-img-new.png";
+import msd from "./img/maple-street-designs-new-img.png";
 
 const Portfolio = () => (
 
